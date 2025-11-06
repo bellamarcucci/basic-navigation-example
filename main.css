@@ -3,6 +3,20 @@
     margin: 0px;
     padding: 0px;
 }
+.pageLayout{
+    font-family: Arial, sans-serif, Helvetica;
+    color: #222;
+    line-height: 1.5;
+}
+.pageLayoutServices{
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); /* Content, sidebar*/
+    gap: 20px;
+    background-color: #2a2a2a;
+    padding: 20px;
+    color: white;
+}
+
 
 nav {
     padding: 32px 32px;
@@ -32,6 +46,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-right: 20px;
+    font-size: small;
 }
 
 nav ul li:last-child {
@@ -60,3 +75,9 @@ nav ul li a:active{
     color: green;
 }
 
+footer{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: bottom;
+}
